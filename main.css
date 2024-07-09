@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem; 
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(58, 58, 58), rgb(2, 12, 27));
+    display: flex;
+
+    padding: 30px;
+
+}
+
+header {
+    margin: 10px;
+    outline: rgb(6, 97, 216) solid;
+    display: none ;
+}
+
+ol {
+    display: none;
+}
+
+.circle {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.square{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+
+}
+section {
+    
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+
+   
+
+
+}
+
+.elipse {
+    width: 90px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+}
+
+.cilinder {
+    width: 90px;
+    height: 45px;
+    border: 2px solid white;
+}
+#unico {
+    background-color: black;
+    border: red 2px dashed;
+}
